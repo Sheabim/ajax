@@ -17,3 +17,4 @@ xhr.onreadystatechange = function () {
     document.getElementById('employeeList').innerHTML = statusHTML;
   }
 };
+xhr.send();
